@@ -23,7 +23,7 @@ jobs:
 
           echo "Liste des fichiers :"
           ls -la
-      
+
       - name: Informations Git
         run: |
           echo "Branche : $GITHUB_REF_NAME"
